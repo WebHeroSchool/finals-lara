@@ -1,0 +1,15 @@
+{
+  "name": "lara_finals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "helloworld.js",
+  "scripts": {
+    "test": "",
+    "start": "node helloworld.js",
+    "create": "touch build.js",
+    "delete": "rm -rf build.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
