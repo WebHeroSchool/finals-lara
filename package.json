@@ -10,6 +10,8 @@
     "delete": "rm -rf build.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
 }
-
