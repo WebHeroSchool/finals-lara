@@ -7,7 +7,8 @@
     "test": "",
     "start": "node helloworld.js",
     "create": "touch build.js",
-    "delete": "rm -rf build.js"
+    "delete": "rm -rf build.js",
+    "create2": "touch .gitignore"
   },
   "author": "",
   "license": "ISC",
