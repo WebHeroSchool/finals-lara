@@ -1,1 +1,3 @@
-console.log("Hello");
+"use strict";
+
+var oneApple = 1;
