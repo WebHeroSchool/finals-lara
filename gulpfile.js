@@ -1,11 +1,6 @@
-const gulp = require('gulp');
-const babel = require('gulp-babel');
-
+var gulp = require('gulp');
 
 gulp.task('build', function () {
-    gulp.src(['script/index.js']) 
-	    .pipe(babel({
-			presets: ['@babel/env']
-		}))
-        .pipe(gulp.dest('new')) 
+    gulp.src(['html/index.html', 'script/index.js']) //Выберем файлы по нужному пути
+        .pipe(gulp.dest('new')) //Положим в папку 
 });
