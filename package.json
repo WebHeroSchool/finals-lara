@@ -7,9 +7,12 @@
     "test": "",
     "start": "node helloworld.js",
     "create": "touch build.js",
-    "delete": "rm -rf build.js"
+    "delete": "rm -rf build.js",
+    "create2": "touch .gitignore"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
 }
-
