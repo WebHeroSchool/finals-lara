@@ -13,6 +13,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^4.0.0"
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0"
+  },
+  "dependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2"
   }
 }
