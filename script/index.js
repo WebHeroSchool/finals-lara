@@ -1,0 +1,1 @@
+const oneApple = 1;
