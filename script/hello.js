@@ -1,1 +1,1 @@
-var secondApple = 2;
+const twoApple = 2;
