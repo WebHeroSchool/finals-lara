@@ -7,5 +7,5 @@ gulp.task('build', function () {
 	    .pipe(babel({
 			presets: ['@babel/env']
 		}))
-        .pipe(gulp.dest('new')) 
+        .pipe(gulp.dest('build')) 
 });
